@@ -6,7 +6,9 @@ metadata:
     kompose.version: 1.26.1 (HEAD)
   labels:
     app.novu.co/name: redis
+    app: redis
   name: redis
+  namespace: ayshei-biz-dev
 spec:
   ports:
     - name: '6379'

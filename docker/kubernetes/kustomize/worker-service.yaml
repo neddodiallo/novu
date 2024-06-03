@@ -4,9 +4,11 @@ metadata:
   annotations:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
+    app: worker
   labels:
     app.novu.co/name: worker
   name: worker
+  namespace: ayshei-biz-dev
 spec:
   ports:
     - name: '3004'
